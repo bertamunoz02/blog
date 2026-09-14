@@ -1,23 +1,14 @@
 # Con B de Biología — blog
 
-Blog estático de Berta Muñoz Aranguren. Jekyll sobre GitHub Pages (sin build local necesario).
+HTML y CSS planos. Sin build, sin dependencias. GitHub Pages sirve los archivos tal cual.
 
-## Publicar un post
+## Escribir un post
 
-1. Crea `_posts/AAAA-MM-DD-titulo.md`
-2. Cabecera:
-   ```yaml
-   ---
-   layout: default
-   title: "Título del post"
-   description: "Resumen de una o dos líneas."
-   ---
-   ```
-3. Escribe en Markdown, `git push`. GitHub Pages lo publica en ~1 minuto.
+1. Copia `posts/por-que-abro-este-blog.html` con nombre nuevo, p.ej. `posts/fases-ensayo-clinico.html`
+2. Cambia `<title>`, `<meta name="description">`, la fecha, el `<h1>` y el texto
+3. En `index.html`, duplica el `<li>` de la lista y apúntalo al archivo nuevo (los recientes arriba)
+4. `git add -A && git commit -m "nuevo post" && git push`
 
-## Ver en local (opcional)
+## Ver en local
 
-```bash
-bundle install
-bundle exec jekyll serve
-```
+Abre `index.html` en el navegador. Ya está.
