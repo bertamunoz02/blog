@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bertamunoz02.github.io/blog/sitemap-index.xml

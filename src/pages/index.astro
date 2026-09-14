@@ -1,0 +1,47 @@
+---
+import Base from '../layouts/Base.astro';
+
+const posts = Object.values(
+  import.meta.glob('./posts/*.md', { eager: true })
+).sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date));
+
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'Blog',
+  name: 'Con B de Biología',
+  description: 'Investigación clínica, ensayos y divulgación científica.',
+  inLanguage: 'es',
+  author: {
+    '@type': 'Person',
+    name: 'Berta Muñoz Aranguren',
+    url: 'https://bertamunoz02.github.io/',
+    jobTitle: 'Bióloga — investigación clínica',
+  },
+};
+---
+<Base
+  title="Con B de Biología — Berta Muñoz Aranguren"
+  description="Blog sobre investigación clínica, ensayos clínicos, industria farmacéutica y divulgación científica, por Berta Muñoz Aranguren."
+  jsonld={jsonld}
+>
+  <h1 class="hero">Con B<br />de Biología</h1>
+  <p class="lede">Investigación clínica, ensayos y divulgación — por Berta Muñoz Aranguren.</p>
+
+  <ul class="list">
+    {posts.map((post) => (
+      <li>
+        <a href={post.url}>
+          <p class="mono">
+            <time datetime={post.frontmatter.date}>
+              {new Date(post.frontmatter.date).toLocaleDateString('es-ES', {
+                day: 'numeric', month: 'long', year: 'numeric',
+              })}
+            </time>
+          </p>
+          <h2>{post.frontmatter.title}</h2>
+        </a>
+        <p>{post.frontmatter.description}</p>
+      </li>
+    ))}
+  </ul>
+</Base>

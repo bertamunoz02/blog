@@ -1,0 +1,36 @@
+---
+import Base from './Base.astro';
+
+const { frontmatter } = Astro.props;
+const { title, description, date, image } = frontmatter;
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: title,
+  description,
+  datePublished: date,
+  inLanguage: 'es',
+  mainEntityOfPage: canonical,
+  author: {
+    '@type': 'Person',
+    name: 'Berta Muñoz Aranguren',
+    url: 'https://bertamunoz02.github.io/',
+  },
+  image: new URL(image ?? 'berta.webp', new URL(import.meta.env.BASE_URL, Astro.site)).href,
+};
+
+const fecha = new Date(date).toLocaleDateString('es-ES', {
+  day: 'numeric', month: 'long', year: 'numeric',
+});
+---
+<Base title={`${title} — Con B de Biología`} description={description} image={image}
+      jsonld={jsonld} type="article" date={new Date(date).toISOString()}>
+  <article>
+    <p class="mono"><time datetime={date}>{fecha}</time></p>
+    <h1>{title}</h1>
+    <slot />
+  </article>
+  <p class="back"><a href={import.meta.env.BASE_URL}>← Todos los posts</a></p>
+</Base>
