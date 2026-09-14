@@ -1,0 +1,20 @@
+---
+layout: default
+title: Inicio
+---
+<h1 style="font-size:clamp(2.4rem,6vw,3.6rem);text-transform:uppercase;font-variation-settings:'wdth' 115">Con B<br>de Biología</h1>
+<p style="max-width:40ch;margin-top:20px;font-size:1.15rem">{{ site.tagline }}</p>
+
+<ul class="list" style="margin-top:48px">
+{%- for post in site.posts %}
+  <li>
+    <a href="{{ post.url | relative_url }}">
+      <p class="mono">{{ post.date | date: "%-d %B %Y" }}</p>
+      <h2>{{ post.title }}</h2>
+    </a>
+    <p>{{ post.description | default: post.excerpt | strip_html | truncate: 160 }}</p>
+  </li>
+{%- else %}
+  <li><p>Todavía no hay posts.</p></li>
+{%- endfor %}
+</ul>
