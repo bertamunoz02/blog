@@ -1,9 +1,14 @@
 ---
 import Base from './Base.astro';
 
-const { frontmatter } = Astro.props;
-const { title, description, date, image } = frontmatter;
+const { frontmatter, url } = Astro.props;
+const { title, description, date, image, imageAlt, imageCredit, tags = [], lede } = frontmatter;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
+
+// número de entrega: posición cronológica del post
+const todos = Object.values(import.meta.glob('../pages/posts/*.md', { eager: true }))
+  .sort((a, b) => new Date(a.frontmatter.date) - new Date(b.frontmatter.date));
+const num = todos.findIndex((p) => p.url === url) + 1;
 
 const jsonld = {
   '@context': 'https://schema.org',
@@ -12,25 +17,35 @@ const jsonld = {
   description,
   datePublished: date,
   inLanguage: 'es',
+  keywords: tags.join(', '),
   mainEntityOfPage: canonical,
-  author: {
-    '@type': 'Person',
-    name: 'Berta Muñoz Aranguren',
-    url: 'https://bertamunoz02.github.io/',
-  },
+  author: { '@type': 'Person', name: 'Berta Muñoz Aranguren', url: 'https://bertamunoz02.github.io/' },
   image: new URL(image ?? 'berta.webp', new URL(import.meta.env.BASE_URL, Astro.site)).href,
 };
-
-const fecha = new Date(date).toLocaleDateString('es-ES', {
-  day: 'numeric', month: 'long', year: 'numeric',
-});
+const fecha = new Date(date).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
 ---
 <Base title={`${title} — Con B de Biología`} description={description} image={image}
       jsonld={jsonld} type="article" date={new Date(date).toISOString()}>
   <article>
-    <p class="mono"><time datetime={date}>{fecha}</time></p>
-    <h1>{title}</h1>
-    <slot />
+    <header class="paper-head">
+      <p class="small"><span>Con B de Biología</span><span class="pink">Nº {num}</span><time datetime={date}>{fecha}</time></p>
+      <h1>{title}</h1>
+      <p class="author">Berta Muñoz Aranguren</p>
+      <div class="abstract">
+        <span class="small">Resumen</span>
+        {lede ?? description}
+      </div>
+      {tags.length > 0 && <p class="keywords">Palabras clave: <i>{tags.join(', ')}</i></p>}
+    </header>
+
+    {image && (
+      <figure>
+        <img src={import.meta.env.BASE_URL + image} alt={imageAlt ?? ''} width="1600" height="1067" fetchpriority="high" />
+        {imageCredit && <figcaption set:html={imageCredit} />}
+      </figure>
+    )}
+
+    <div class="prose"><slot /></div>
   </article>
-  <p class="back"><a href={import.meta.env.BASE_URL}>← Todos los posts</a></p>
+  <a class="back" href={import.meta.env.BASE_URL}>← Volver al índice</a>
 </Base>

@@ -1,47 +1,50 @@
 ---
 import Base from '../layouts/Base.astro';
 
-const posts = Object.values(
-  import.meta.glob('./posts/*.md', { eager: true })
-).sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date));
+const posts = Object.values(import.meta.glob('./posts/*.md', { eager: true }))
+  .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date));
 
 const jsonld = {
   '@context': 'https://schema.org',
   '@type': 'Blog',
   name: 'Con B de Biología',
-  description: 'Investigación clínica, ensayos y divulgación científica.',
+  description: 'Biología, investigación clínica, industria farmacéutica y animales asombrosos, explicados con calma.',
   inLanguage: 'es',
   author: {
     '@type': 'Person',
     name: 'Berta Muñoz Aranguren',
     url: 'https://bertamunoz02.github.io/',
     jobTitle: 'Bióloga — investigación clínica',
+    sameAs: ['https://www.instagram.com/bertamunoz_02/', 'https://www.tiktok.com/@bertamunoz_02'],
   },
 };
 ---
 <Base
-  title="Con B de Biología — Berta Muñoz Aranguren"
-  description="Blog sobre investigación clínica, ensayos clínicos, industria farmacéutica y divulgación científica, por Berta Muñoz Aranguren."
+  title="Con B de Biología — el blog de Berta Muñoz"
+  description="Biología, ensayos clínicos, industria farmacéutica y animales asombrosos. El blog de @bertamunoz_02, para lo que no cabe en un vídeo de un minuto."
   jsonld={jsonld}
 >
-  <h1 class="hero">Con B<br />de Biología</h1>
-  <p class="lede">Investigación clínica, ensayos y divulgación — por Berta Muñoz Aranguren.</p>
+  <section class="masthead">
+    <h1>Con B de <em>Biología</em></h1>
+    <p class="sub">Biología, ensayos clínicos, industria farmacéutica y animales asombrosos. Lo que no cabe en un vídeo de un minuto, contado con calma.</p>
+    <p class="links small">
+      <a href="https://www.instagram.com/bertamunoz_02/" target="_blank" rel="noopener">@bertamunoz_02 en Instagram</a>
+      <a href="https://www.tiktok.com/@bertamunoz_02" target="_blank" rel="noopener">TikTok</a>
+    </p>
+  </section>
 
-  <ul class="list">
-    {posts.map((post) => (
+  <ol class="toc" reversed>
+    {posts.map((post, i) => (
       <li>
-        <a href={post.url}>
-          <p class="mono">
-            <time datetime={post.frontmatter.date}>
-              {new Date(post.frontmatter.date).toLocaleDateString('es-ES', {
-                day: 'numeric', month: 'long', year: 'numeric',
-              })}
-            </time>
-          </p>
-          <h2>{post.frontmatter.title}</h2>
-        </a>
-        <p>{post.frontmatter.description}</p>
+        <div>
+          <span class="small">Nº {posts.length - i} · <time datetime={post.frontmatter.date}>
+            {new Date(post.frontmatter.date).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })}
+          </time></span>
+          <h2><a href={post.url}>{post.frontmatter.title}</a></h2>
+          <p class="abs">{post.frontmatter.description}</p>
+        </div>
+        {post.frontmatter.image && <a href={post.url} tabindex="-1"><img src={import.meta.env.BASE_URL + post.frontmatter.image} alt="" loading="lazy" width="120" height="120" /></a>}
       </li>
     ))}
-  </ul>
+  </ol>
 </Base>
