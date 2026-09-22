@@ -29,6 +29,7 @@ const ogImage = new URL(image ?? 'berta.webp', new URL(home, Astro.site)).href;
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet" />
 {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
+<script data-goatcounter="https://bertamunoz02-blog.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
 <div class="page">
@@ -43,11 +44,13 @@ const ogImage = new URL(image ?? 'berta.webp', new URL(home, Astro.site)).href;
   </nav>
 </header>
 
-<main><slot /></main>
+<main>
+  <slot />
+</main>
 
-<footer class="small">
-  <span>© {new Date().getFullYear()} Berta Muñoz Aranguren</span>
-  <span><a href="mailto:bertamunoz02@gmail.com">bertamunoz02@gmail.com</a> · <a href={home + 'rss.xml'}>RSS</a></span>
+<footer class="footer">
+  <div>Con B de Biología · Berta Muñoz</div>
+  <div><a href={home + 'rss.xml'}>RSS</a> · <a href="mailto:bertamunoz.bio@gmail.com">Contacto</a></div>
 </footer>
 
 </div>
