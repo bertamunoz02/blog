@@ -3,7 +3,7 @@ layout: ../../layouts/Post.astro
 title: "El animal que se regenera una pata (y por qué le interesa a la farma)"
 description: "El ajolote se regenera patas, cola, trozos de corazón y hasta de cerebro sin dejar cicatriz. Qué sabemos de cómo lo hace y qué busca en él la medicina regenerativa."
 lede: "Si a un ajolote le cortas una pata, en unas semanas tiene otra. Con huesos, músculos, nervios y dedos. Y sin cicatriz."
-date: 2026-09-28
+date: 2026-09-22
 image: "img/ajolote-cover.webp"
 imageAlt: "Ajolote albino de branquias rosadas en un acuario"
 imageCredit: "Ajolote (<em>Ambystoma mexicanum</em>). Foto: Amandasofiarana, <a href='https://commons.wikimedia.org/wiki/File:Axolotl_ambystoma_mexicanum_anfibio_ASAG.jpg'>Wikimedia Commons</a>, CC BY-SA 4.0"
