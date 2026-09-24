@@ -89,3 +89,19 @@ figcaption a{color:inherit}
 footer{padding-block:24px 48px;border-top:1px solid var(--ink);display:flex;justify-content:space-between;gap:12px 24px;flex-wrap:wrap}
 footer a{color:inherit;text-decoration:none}
 footer a:hover{color:var(--pink)}
+
+/* comentarios (Waline) */
+.comentarios{margin-top:3.2em;padding-top:24px;border-top:1px solid var(--ink)}
+.comentarios h2{font-size:1.55rem}
+.comentarios .nota{margin-top:8px;font-size:.95rem;color:var(--muted);font-style:italic}
+#waline{margin-top:20px;
+  --waline-font-size:1rem;--waline-white:#fff;
+  --waline-theme-color:var(--green);--waline-active-color:var(--pink);
+  --waline-color:var(--ink);--waline-bg-color:var(--cream);
+  --waline-bg-color-light:var(--green-soft);--waline-bg-color-hover:var(--pink-soft);
+  --waline-border-color:var(--rule);--waline-info-color:var(--muted);
+  --waline-light-grey:var(--muted);--waline-dark-grey:var(--ink);
+  --waline-badge-color:var(--pink);--waline-bq-color:var(--green-soft);
+  --waline-disable-bg-color:var(--cream)}
+#waline .wl-editor,#waline input,#waline textarea{font-family:var(--serif)}
+#waline .wl-btn.primary{font-family:var(--mono);letter-spacing:.06em;text-transform:uppercase;font-size:.72rem}

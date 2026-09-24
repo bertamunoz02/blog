@@ -47,5 +47,32 @@ const fecha = new Date(date).toLocaleDateString('es-ES', { day: 'numeric', month
 
     <div class="prose"><slot /></div>
   </article>
+
+  <section class="comentarios" aria-labelledby="comentarios-titulo">
+    <h2 id="comentarios-titulo">Comentarios</h2>
+    <p class="nota">No hace falta registrarse. Los comentarios se publican cuando Berta los revisa.</p>
+    <div id="waline"></div>
+  </section>
+  <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css" />
+  <script type="module" is:inline>
+    import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+    init({
+      el: '#waline',
+      serverURL: 'https://blog-comentarios.vercel.app',
+      lang: 'es',
+      dark: false,
+      login: 'disable',
+      meta: ['nick', 'mail'],
+      requiredMeta: [],
+      reaction: false,
+      pageview: false,
+      search: false,
+      imageUploader: false,
+      locale: {
+        placeholder: 'Escribe tu comentario. Nombre y email son opcionales; el email no se muestra.',
+        sofa: 'Todavía no hay comentarios. ¡Sé la primera persona!',
+      },
+    });
+  </script>
   <a class="back" href={import.meta.env.BASE_URL}>← Volver al índice</a>
 </Base>
