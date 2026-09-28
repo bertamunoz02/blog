@@ -5,7 +5,6 @@ description: "Quería investigar el Alzheimer y el cáncer. Hoy también pienso 
 lede: "De pequeña quería ser científica. No imaginaba que, al llegar el momento de elegir, tendría que preguntarme si podía permitirme hacer un doctorado."
 image: "img/1-portada-doctorado-microscopio.jpg"
 imageAlt: "Berta con bata de laboratorio observando una muestra al microscopio"
-imageCredit: "Imagen facilitada por Berta"
 date: 2026-09-28
 tags: ["Carrera científica", "Investigación", "España"]
 ---
@@ -22,23 +21,27 @@ En el último año de Biología empecé a mirar lo que implicaba hacer un máste
 
 Pasé dos años preparando el BIR y no conseguí plaza. Cuesta asimilarlo después de haber puesto tanto tiempo y tanta ilusión en un camino. Y luego toca empezar de cero: volver a mirar opciones, buscar trabajo y aceptar que el plan que habías hecho en tu cabeza quizá no va a salir. La investigación seguía importándome, pero las preguntas sobre **qué vida podría tener mientras investigaba** no habían desaparecido.
 
-## El sueldo no se puede mirar sin mirar las horas
+## Salarios, tiempo y alquiler: las cuentas que hago
 
-Un doctorado no es una beca para estudiar en una biblioteca. Si tienes un contrato predoctoral, investigas y trabajas para un centro mientras haces la tesis. El [Estatuto del personal investigador predoctoral](https://www.boe.es/eli/es/rd/2019/03/01/103/con) fija unos mínimos salariales, pero no hay una nómina idéntica en todas las universidades y centros: influyen el convenio, el año de contrato y la convocatoria. También establece que la jornada y los descansos se rigen por el convenio aplicable o, en su ausencia, por el Estatuto de los Trabajadores.
+Un contrato predoctoral es trabajo, no una beca para sentarte a estudiar. Hay un mínimo salarial y derechos de jornada, pero el sueldo concreto depende del centro y del convenio. Y, además del contrato, están los experimentos que hay que repetir, los artículos y los plazos. No todos los grupos funcionan igual; yo necesitaría saber cuánto voy a cobrar y cuántas horas voy a trabajar de verdad. La vocación no debería convertir el tiempo de nadie en gratis.
 
-Sobre el papel, esas son las condiciones. Luego está lo que exige sacar adelante una investigación: experimentos que no salen, resultados que hay que repetir, artículos, congresos, plazos. No estoy diciendo que todas las personas hagan horas extra ni que todos los laboratorios funcionen igual. Digo que **antes de aceptar un sueldo necesito saber también cuántas horas reales voy a trabajar y qué margen me queda para vivir**. La vocación no debería convertir el tiempo de nadie en gratis.
+Tampoco se acaba la incertidumbre al leer la tesis. Una plaza posdoctoral puede obligarte a competir de nuevo y a mudarte para el siguiente contrato. Muchos compañeros del máster que hago ahora acaban de dejar el doctorado porque no les resultaban viables las condiciones que veían por delante. No es una estadística: son personas con las que comparto clase.
 
-Y terminar el doctorado tampoco garantiza que se acabe la incertidumbre. Los contratos posdoctorales pueden variar mucho en sueldo y condiciones; conseguir uno no equivale automáticamente a una plaza estable. Puedes acabar compitiendo de nuevo por financiación y buscando el siguiente contrato, a veces en otra ciudad o en otro país. Si tras años de formación todavía tienes que organizar tu vida en torno a la próxima convocatoria, esa posibilidad pesa.
+Para poner números a la conversación, he reunido unos ejemplos **de España**. Los sueldos son **brutos anuales**, orientativos o mínimos según la fuente; no equivalen a lo que recibes cada mes en la cuenta. Las filas de gasto y alquiler miden cosas distintas. En las guías privadas, 0–3 años describe la franja de experiencia, no asegura que el puesto sea de acceso directo para quien empieza:
 
-En el máster que estoy haciendo ahora, muchos compañeros acaban de dejar el doctorado porque las condiciones que veían por delante no les resultaban viables. No es una estadística sobre todos los doctorandos en España; son personas con las que comparto clase. Escucharlas me ha hecho pensar que esto no va solo de mis miedos antes de empezar.
+| Concepto (ámbito y año) | Importe | Qué mide |
+| --- | ---: | --- |
+| Predoc FPU, convocatoria 2025 (publicada en 2026, España) | **25.116 €/año** | Retribución mínima bruta anual de esa convocatoria [1]. |
+| Postdoc Juan de la Cierva, convocatoria 2025 (España) | **30.600 €/año** | Retribución mínima bruta anual exigida para esos contratos [2]. |
+| Técnico/a de I+D, menos de 3 años, Madrid (guía 2025) | **24.720–26.780 €/año** | Rango salarial orientativo, no sueldo garantizado [3]. |
+| CRA, 0–3 años, pyme (guía España 2025) | **28.000–35.000 €/año** | Rango orientativo de sueldo fijo [6]. |
+| Técnico/a o responsable de asuntos regulatorios (RA), 0–3 años, pyme (guía España 2025) | **30.000–35.000 €/año** | Categoría conjunta de la guía; no significa que un puesto junior sea responsable [6]. |
+| MSL, 0–3 años, pyme (guía España 2025) | **35.000–45.000 €/año** | Sueldo fijo orientativo, sin bonus; «0–3 años» no garantiza acceso sin experiencia relevante [6]. |
+| Alquiler de piso completo, España (balance juvenil 2025) | **1.176 €/mes** | Precio medio de una vivienda completa [4]. |
+| Alquiler de habitación, España (balance juvenil 2025) | **400 €/mes** | Precio mediano de una habitación; mediana y media son medidas distintas [4]. |
+| Gasto medio por persona en hogares cuyo sustentador principal tiene 16–29 años, España (INE, 2025) | **13.016,65 €/año** | No es el gasto medio de toda persona joven ni un presupuesto individual; **incluye vivienda**, también alquiler imputado [5]. |
 
-## ¿Y dónde vives mientras tanto?
-
-El sueldo tampoco existe aislado del alquiler, la compra y lo que cuesta llenar la nevera. El [Observatorio de Emancipación de 2025 del Consejo de la Juventud de España](https://www.cje.org/observatorio_2025/), difundido en mayo de 2026, calcula que el alquiler medio de una vivienda equivalía al **98,7 % del salario medio de una persona joven**. Es un dato de la juventud en general, **no del salario de una persona predoctoral**, y no significa que todo el mundo pague ese alquiler. Pero muestra por qué la pregunta «¿podré independizarme?» no se responde con «haz lo que te gusta».
-
-Si haces la tesis hasta cerca de los treinta, o llegas a esa edad encadenando contratos, no estás pidiendo ningún lujo por querer pagar una casa, ahorrar algo y no depender siempre de tu familia o de compartir piso. En mi caso, miro lo que podría cobrar frente al coste de vivir donde estuviera el grupo y no me salen las cuentas de la vida que quiero construir. El precio de la vivienda y la subida general de los gastos hacen que un sueldo que parecía suficiente hace unos años ya no lo parezca tanto.
-
-Claro que habrá quien pueda hacerlo, por ciudad, sueldo, apoyo familiar o situación personal. Precisamente por eso me cuesta que se hable del doctorado como si todo dependiera de cuánto te esfuerces. No todos empezamos con el mismo colchón.
+No sumes el gasto medio del INE al alquiler: **la vivienda ya está incluida**. El dato del INE corresponde a personas que viven en hogares cuyo sustentador principal tiene de 16 a 29 años, no a toda la juventud. Tampoco confundas salario bruto con dinero disponible tras impuestos. El Consejo de la Juventud calcula que el alquiler medio de un piso equivale al **98,7 % del salario medio joven**, no del salario predoc [4]. Con esas cuentas delante, me cuesta pensar en enlazar contratos hasta los treinta sin poder planear mi vida.
 
 ## Siempre hay otra persona brillante
 
@@ -52,14 +55,18 @@ También es un mundo que desgasta. Tampoco es siempre bonito por dentro. Hay gen
 
 Una de las cosas más difíciles de asumir cuando llevas años queriendo investigar es que no siempre basta con hacer lo que te apasiona. También necesitas que tu profesión te permita construir un futuro.
 
-Por eso estoy explorando la industria farmacéutica y la investigación clínica. Me interesa entender el camino entre un descubrimiento y lo que puede llegar a un paciente. También estoy aprendiendo a usar herramientas digitales aplicadas a la ciencia y voy a contar lo que pruebe, desde cero. No porque de repente sea experta en informática (ojalá), sino porque estoy buscando otras maneras de trabajar en algo que me importa.
+Por eso estoy explorando la industria farmacéutica y la investigación clínica. Me interesa entender el camino entre un descubrimiento y lo que puede llegar a un paciente. Espero encontrar ahí sueldos y trabajos más estables, con mejores perspectivas para mí que si sigo encadenando contratos académicos. Eso no significa que cualquier puesto en farma pague más o sea indefinido; voy a mirar cada oferta y cada contrato.
 
-No tengo un puesto esperándome al final de esta entrada. Estoy buscando trabajo y cambiando un plan que llevaba muchos años en mi cabeza. A veces da rabia. Haber visto el Alzheimer y el cáncer tan cerca hace que esa idea de investigar no desaparezca porque yo decida mirar otras opciones.
+No tengo un puesto esperándome al final de esta entrada. Estoy buscando trabajo y cambiando un plan que llevaba muchos años en mi cabeza. A veces da rabia.
 
 Quizá algún día haga un doctorado. Quizá no. Lo que no quiero es llegar a los treinta diciendo que seguí el plan de aquella niña mientras no me alcanza para vivir. Sigo queriendo la ciencia. Ahora estoy intentando averiguar cómo seguir formando parte de ella sin renunciar a todo lo demás.
 
-<div class="refs"><span class="small">Referencias</span>
-Consejo de la Juventud de España. <i>Observatorio de Emancipación 2025</i>, balance difundido en 2026 (vivienda y salario medio juvenil; no salarios predoctorales): <a href="https://www.cje.org/observatorio_2025/">cje.org</a>.<br>
-Boletín Oficial del Estado. <i>Real Decreto 103/2019, Estatuto del personal investigador predoctoral en formación</i>, texto consolidado, arts. 7 y 8 (retribución y jornada): <a href="https://www.boe.es/eli/es/rd/2019/03/01/103/con">boe.es</a>.<br>
-Boletín Oficial del Estado. <i>Ley 14/2011, de la Ciencia, la Tecnología y la Innovación</i>, texto consolidado, arts. 21 y 22 (contratos predoctoral y de acceso de personal investigador doctor): <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2011-9617">boe.es</a>.
+<div class="refs"><span class="small">Fuentes de la tabla</span>
+[1] Ministerio de Ciencia, Innovación y Universidades. <i>FPU 2025</i>, publicada en 2026, retribución mínima anual: <a href="https://www.ciencia.gob.es/Convocatorias/2026/FPU2025.html">ciencia.gob.es</a>.<br>
+[2] Agencia Estatal de Investigación. <i>Convocatoria Juan de la Cierva 2025</i>, sección de financiación, mínimo salarial (la ayuda de 35.000 €/año incluye también cotización empresarial y NO es sueldo): <a href="https://www.aei.gob.es/sites/default/files/convocatory_info/file/2025-10/Resolucion%20convocatoria%20JDC%202025_.pdf">aei.gob.es (PDF)</a>.<br>
+[3] Adecco. <i>Guía Salarial 2025, Life Sciences & Healthcare</i>, tabla «Técnico/a de I+D», Madrid, menos de 3 años de experiencia: <a href="https://www.adecco.com/-/jssmedia/project/adecco/adecco-es/guia-salarial/pdf/guia-salarial-2025-lifesciences-healthcare.pdf">adecco.com (PDF)</a>.<br>
+[4] Consejo de la Juventud de España. <i>Observatorio de Emancipación 2025</i>, difundido en mayo de 2026: <a href="https://www.cje.org/observatorio_2025/">cje.org</a>.<br>
+[5] INE. <i>Encuesta de Presupuestos Familiares 2025</i>, tabla «Gasto por sexo y edad del sustentador principal», fila «Total / De 16 a 29 años / Dato base / Gasto medio por persona / 2025» (CSV oficial): <a href="https://www.ine.es/jaxiT3/files/t/csv_bdsc/73787.csv">ine.es (CSV)</a>. Nota metodológica sobre vivienda y alquiler imputado: <a href="https://www.ine.es/dyngs/Prensa/EPF2025.htm">ine.es</a>.<br>
+[6] PageGroup. <i>Estudio de Remuneración 2025, España</i>, Healthcare & Life Science, págs. 42–43, franjas 0–3 años de pyme; las cifras son sueldos fijos y las columnas de bonus se presentan aparte: <a href="https://www.aedh.es/wp-content/uploads/2025/04/014-2025-Estudio-de-Remuneracion-2025-Michael-Page-Spain.pdf">PDF del estudio</a>.<br>
+Marco de jornada y descansos de predoc: <a href="https://www.boe.es/eli/es/rd/2019/03/01/103/con">RD 103/2019, arts. 7-8</a>.
 </div>
