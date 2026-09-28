@@ -29,19 +29,17 @@ Tampoco se acaba la incertidumbre al leer la tesis. Una plaza posdoctoral puede 
 
 Para poner números a la conversación, he reunido unos ejemplos **de España**. Los sueldos son **brutos anuales**, orientativos o mínimos según la fuente; no equivalen a lo que recibes cada mes en la cuenta. Las filas de gasto y alquiler miden cosas distintas. En las guías privadas, 0–3 años describe la franja de experiencia, no asegura que el puesto sea de acceso directo para quien empieza:
 
-| Concepto (ámbito y año) | Importe | Qué mide |
-| --- | ---: | --- |
-| Predoc FPU, convocatoria 2025 (publicada en 2026, España) | **25.116 €/año** | Retribución mínima bruta anual de esa convocatoria [1]. |
-| Postdoc Juan de la Cierva, convocatoria 2025 (España) | **30.600 €/año** | Retribución mínima bruta anual exigida para esos contratos [2]. |
-| Técnico/a de I+D, menos de 3 años, Madrid (guía 2025) | **24.720–26.780 €/año** | Rango salarial orientativo, no sueldo garantizado [3]. |
-| CRA, 0–3 años, pyme (guía España 2025) | **28.000–35.000 €/año** | Rango orientativo de sueldo fijo [6]. |
-| Técnico/a o responsable de asuntos regulatorios (RA), 0–3 años, pyme (guía España 2025) | **30.000–35.000 €/año** | Categoría conjunta de la guía; no significa que un puesto junior sea responsable [6]. |
-| MSL, 0–3 años, pyme (guía España 2025) | **35.000–45.000 €/año** | Sueldo fijo orientativo, sin bonus; «0–3 años» no garantiza acceso sin experiencia relevante [6]. |
-| Alquiler de piso completo, España (balance juvenil 2025) | **1.176 €/mes** | Precio medio de una vivienda completa [4]. |
-| Alquiler de habitación, España (balance juvenil 2025) | **400 €/mes** | Precio mediano de una habitación; mediana y media son medidas distintas [4]. |
-| Gasto medio por persona en hogares cuyo sustentador principal tiene 16–29 años, España (INE, 2025) | **13.016,65 €/año** | No es el gasto medio de toda persona joven ni un presupuesto individual; **incluye vivienda**, también alquiler imputado [5]. |
-
-No sumes el gasto medio del INE al alquiler: **la vivienda ya está incluida**. El dato del INE corresponde a personas que viven en hogares cuyo sustentador principal tiene de 16 a 29 años, no a toda la juventud. Tampoco confundas salario bruto con dinero disponible tras impuestos. El Consejo de la Juventud calcula que el alquiler medio de un piso equivale al **98,7 % del salario medio joven**, no del salario predoc [4]. Con esas cuentas delante, me cuesta pensar en enlazar contratos hasta los treinta sin poder planear mi vida.
+| Concepto (ámbito y año) | Importe |
+| --- | ---: |
+| Predoc FPU, convocatoria 2025 (publicada en 2026, España) [1] | **25.116 €/año** |
+| Postdoc Juan de la Cierva, convocatoria 2025 (España) [2] | **30.600 €/año** |
+| Técnico/a de I+D, menos de 3 años, Madrid (guía 2025) [3] | **24.720–26.780 €/año** |
+| CRA, 0–3 años, pyme (guía España 2025) [6] | **28.000–35.000 €/año** |
+| Técnico/a o responsable de asuntos regulatorios (RA), 0–3 años, pyme (guía España 2025) [6] | **30.000–35.000 €/año** |
+| MSL, 0–3 años, pyme (guía España 2025) [6] | **35.000–45.000 €/año** |
+| Alquiler medio de piso completo, España (balance juvenil 2025) [4] | **1.176 €/mes** |
+| Alquiler mediano de habitación, España (balance juvenil 2025) [4] | **400 €/mes** |
+| Gasto medio por persona (vivienda incluida; no representa a toda la juventud) en hogares cuyo sustentador principal tiene 16–29 años, España (INE, 2025) [5] | **13.016,65 €/año** |
 
 ## Siempre hay otra persona brillante
 
