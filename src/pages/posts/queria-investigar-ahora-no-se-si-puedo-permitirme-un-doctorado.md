@@ -27,19 +27,22 @@ Un contrato predoctoral es trabajo, no una beca para sentarte a estudiar. Hay un
 
 Tampoco se acaba la incertidumbre al leer la tesis. Una plaza posdoctoral puede obligarte a competir de nuevo y a mudarte para el siguiente contrato. Muchos compañeros del máster que hago ahora acaban de dejar el doctorado porque no les resultaban viables las condiciones que veían por delante. No es una estadística: son personas con las que comparto clase.
 
-Para poner números a la conversación, he reunido unos ejemplos **de España**. Los sueldos son **brutos anuales**, orientativos o mínimos según la fuente; no equivalen a lo que recibes cada mes en la cuenta. Las filas de gasto y alquiler miden cosas distintas. En las guías privadas, 0–3 años describe la franja de experiencia, no asegura que el puesto sea de acceso directo para quien empieza:
+Para poner números a la conversación, he reunido unos ejemplos **de España**. Los sueldos son **brutos anuales**, no lo que llega cada mes a la cuenta. Para los puestos de industria, las guías dan rangos por experiencia: «junior» significa 0–3 años, pero no garantiza acceso sin experiencia previa. «Sénior» corresponde a más de 6 años en PageGroup; Adecco solo llega a la franja de 5 a menos de 10 años para técnico/a de I+D. No son sueldos prometidos ni categorías idénticas.
 
-| Concepto (ámbito y año) | Importe |
-| --- | ---: |
-| Predoc FPU, convocatoria 2025 (publicada en 2026, España) [1] | **25.116 €/año** |
-| Postdoc Juan de la Cierva, convocatoria 2025 (España) [2] | **30.600 €/año** |
-| Técnico/a de I+D, menos de 3 años, Madrid (guía 2025) [3] | **24.720–26.780 €/año** |
-| CRA, 0–3 años, pyme (guía España 2025) [6] | **28.000–35.000 €/año** |
-| Técnico/a o responsable de asuntos regulatorios (RA), 0–3 años, pyme (guía España 2025) [6] | **30.000–35.000 €/año** |
-| MSL, 0–3 años, pyme (guía España 2025) [6] | **35.000–45.000 €/año** |
-| Alquiler medio de piso completo, España (balance juvenil 2025) [4] | **1.176 €/mes** |
-| Alquiler mediano de habitación, España (balance juvenil 2025) [4] | **400 €/mes** |
-| Gasto medio por persona (vivienda incluida; no representa a toda la juventud) en hogares cuyo sustentador principal tiene 16–29 años, España (INE, 2025) [5] | **13.016,65 €/año** |
+| Bloque y concepto | Junior / entrada (bruto anual) | Sénior / experiencia (bruto anual) |
+| --- | ---: | ---: |
+| **Investigación (convocatorias 2025, España)** | | |
+| Predoc FPU, mínimo salarial, publicada en 2026 [1] | **25.116 €** | No aplica |
+| Postdoc Juan de la Cierva, mínimo salarial [2] | **30.600 €** | No consta en esta convocatoria |
+| **Industria farmacéutica y ciencias de la vida (guías 2025)** | | |
+| Técnico/a de I+D, Madrid [3] | **24.720–26.780 €** (menos de 3 años) | **30.900 €** (5 a menos de 10 años) |
+| CRA, pyme, España [5] | **28.000–35.000 €** (0–3 años) | **45.000–55.000 €** (>6 años) |
+| Técnico/a o responsable de asuntos regulatorios (RA), pyme, España [5] | **30.000–35.000 €** (0–3 años) | **50.000–75.000 €** (>6 años) |
+| MSL, pyme, España [5] | **35.000–45.000 €** (0–3 años) | **55.000–65.000 €** (>6 años, sin bonus) |
+| **Vivienda (balance juvenil 2025, España)** | | |
+| Alquiler medio de un piso completo [4] | **1.176 €/mes** | No aplica |
+
+Viendo los sueldos de entrada, no todos los trabajos de industria pagan más que una FPU. Pero sí veo más opciones de puestos a los que moverme y margen para crecer con los años. Por eso me resulta normal preferir la industria a volver a apostar toda mi vida laboral a conseguir el siguiente contrato de investigación. No es dejar de querer investigar; también estoy pensando en cómo voy a vivir.
 
 ## Siempre hay otra persona brillante
 
@@ -62,9 +65,8 @@ Quizá algún día haga un doctorado. Quizá no. Lo que no quiero es llegar a lo
 <div class="refs"><span class="small">Fuentes de la tabla</span>
 [1] Ministerio de Ciencia, Innovación y Universidades. <i>FPU 2025</i>, publicada en 2026, retribución mínima anual: <a href="https://www.ciencia.gob.es/Convocatorias/2026/FPU2025.html">ciencia.gob.es</a>.<br>
 [2] Agencia Estatal de Investigación. <i>Convocatoria Juan de la Cierva 2025</i>, sección de financiación, mínimo salarial (la ayuda de 35.000 €/año incluye también cotización empresarial y NO es sueldo): <a href="https://www.aei.gob.es/sites/default/files/convocatory_info/file/2025-10/Resolucion%20convocatoria%20JDC%202025_.pdf">aei.gob.es (PDF)</a>.<br>
-[3] Adecco. <i>Guía Salarial 2025, Life Sciences & Healthcare</i>, tabla «Técnico/a de I+D», Madrid, menos de 3 años de experiencia: <a href="https://www.adecco.com/-/jssmedia/project/adecco/adecco-es/guia-salarial/pdf/guia-salarial-2025-lifesciences-healthcare.pdf">adecco.com (PDF)</a>.<br>
+[3] Adecco. <i>Guía Salarial 2025, Life Sciences & Healthcare</i>, tabla «Técnico/a de I+D», Madrid, franjas de menos de 3 y menos de 10 años de experiencia (la última viene después de «menos de 5»): <a href="https://www.adecco.com/-/jssmedia/project/adecco/adecco-es/guia-salarial/pdf/guia-salarial-2025-lifesciences-healthcare.pdf">adecco.com (PDF)</a>.<br>
 [4] Consejo de la Juventud de España. <i>Observatorio de Emancipación 2025</i>, difundido en mayo de 2026: <a href="https://www.cje.org/observatorio_2025/">cje.org</a>.<br>
-[5] INE. <i>Encuesta de Presupuestos Familiares 2025</i>, tabla «Gasto por sexo y edad del sustentador principal», fila «Total / De 16 a 29 años / Dato base / Gasto medio por persona / 2025» (CSV oficial): <a href="https://www.ine.es/jaxiT3/files/t/csv_bdsc/73787.csv">ine.es (CSV)</a>. Nota metodológica sobre vivienda y alquiler imputado: <a href="https://www.ine.es/dyngs/Prensa/EPF2025.htm">ine.es</a>.<br>
-[6] PageGroup. <i>Estudio de Remuneración 2025, España</i>, Healthcare & Life Science, págs. 42–43, franjas 0–3 años de pyme; las cifras son sueldos fijos y las columnas de bonus se presentan aparte: <a href="https://www.aedh.es/wp-content/uploads/2025/04/014-2025-Estudio-de-Remuneracion-2025-Michael-Page-Spain.pdf">PDF del estudio</a>.<br>
+[5] PageGroup. <i>Estudio de Remuneración 2025, España</i>, Healthcare & Life Science, págs. 42–43, franjas 0–3 y más de 6 años de pyme; cifras de sueldo fijo (bonus separado): <a href="https://www.aedh.es/wp-content/uploads/2025/04/014-2025-Estudio-de-Remuneracion-2025-Michael-Page-Spain.pdf">PDF del estudio</a>.<br>
 Marco de jornada y descansos de predoc: <a href="https://www.boe.es/eli/es/rd/2019/03/01/103/con">RD 103/2019, arts. 7-8</a>.
 </div>
