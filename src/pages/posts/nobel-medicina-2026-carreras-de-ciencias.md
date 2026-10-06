@@ -72,3 +72,12 @@ A veces se habla de las carreras de ciencias como si cada una hiciera una cosa a
 Por eso me parece importante defender las carreras de ciencias, todas. No solo las que parecen más cercanas a un hospital. El avance de la ciencia sale de que gente con formaciones distintas se pase ideas, genes y preguntas.
 
 Yo soy bióloga, como Nagel, y ahora mi interés está en los ensayos clínicos: en cómo algo que nace en un laboratorio llega a probarse en personas. Cuando miro este Nobel veo que ese recorrido puede durar décadas y que lo hace mucha gente distinta. Si estás estudiando una carrera de ciencias y te preguntas para qué sirve la tuya, la respuesta es que hace falta.
+
+<div class="refs"><span class="small">Referencias</span>
+Nobel Prize Outreach. <i>The Nobel Prize in Physiology or Medicine 2026</i>: <a href="https://www.nobelprize.org/prizes/medicine/2026/press-release/">comunicado de prensa</a>, <a href="https://www.nobelprize.org/prizes/medicine/2026/popular-information/">información divulgativa</a> y <a href="https://www.nobelprize.org/prizes/medicine/2026/summary/">resumen</a>.<br>
+Universidad de Würzburgo. <a href="https://www.eurekalert.org/news-releases/1146442">Nota de prensa sobre Georg Nagel</a> (EurekAlert).<br>
+Sahel, J.-A. et al. <i>Partial recovery of visual function in a blind patient after optogenetic therapy.</i> <a href="https://www.nature.com/articles/s41591-021-01351-4">Nature Medicine</a> (2021).<br>
+GenSight Biologics. <a href="https://www.gensight-biologics.com/2021/05/25/gensight-biologics-announces-nature-medicine-case-report-showing-visual-recovery-after-gs030-optogenetic-treatment/">Comunicado sobre el caso publicado en Nature Medicine</a> (25 de mayo de 2021).<br>
+Nanoscope Therapeutics. <a href="https://nanostherapeutics.com/2026/09/09/nanoscope-therapeutics-announces-u-s-food-and-drug-administration-acceptance-of-biologics-license-application-for-mogenry-for-the-treatment-of-retinitis-pigmentosa-with-severe-vision-loss/">Comunicado sobre la aceptación de la solicitud de licencia por la FDA</a> (9 de septiembre de 2026).<br>
+R&amp;D World. <a href="https://www.rdworldonline.com/optogenetics-just-won-the-nobel-prize-its-first-therapy-is-already-under-fda-review/">Optogenetics just won the Nobel Prize. Its first therapy is already under FDA review</a> (declaraciones de Nagel, recogidas de CNN).
+</div>
