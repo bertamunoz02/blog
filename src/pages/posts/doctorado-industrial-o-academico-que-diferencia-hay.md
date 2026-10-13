@@ -4,6 +4,9 @@ title: "Doctorado industrial o doctorado académico: ¿qué diferencia hay?"
 description: "Qué es un doctorado industrial, cómo se financia en España, qué exige y en qué se diferencia de un doctorado académico. Con las condiciones de la convocatoria 2026."
 lede: "Hay una opción de doctorado que yo no conocía en su momento y de la que hay que hablar: hacerlo dentro de una empresa. Cuento cómo funciona y en qué se diferencia del académico."
 date: 2026-10-13
+image: "img/doctorado-industrial-portada.webp"
+imageAlt: "Persona con guantes azules usando una pipeta multicanal sobre una placa en un laboratorio"
+imageCredit: "Foto: Thirdman, Pexels (licencia libre)."
 tags: ["Carrera científica", "Doctorado", "Industria farmacéutica"]
 ---
 
